@@ -1,0 +1,44 @@
+@startuml
+class com.example.ex02512.Car {
+~ TextView tv
++ void start()
++ void stop()
++ void accelerate()
+}
+
+
+class com.example.ex02512.Bicycle {
+~ TextView tv
++ void start()
++ void stop()
++ void accelerate()
+}
+
+
+class com.example.ex02512.MainActivity {
+~ TextView tv
+# void onCreate(Bundle)
+}
+
+
+class com.example.ex02512.Motorcycle {
+~ TextView tv
++ void start()
++ void stop()
++ void accelerate()
+}
+
+
+abstract class com.example.ex02512.Vehicle {
++ {abstract}void start()
++ {abstract}void stop()
++ {abstract}void accelerate()
+}
+
+
+
+com.example.ex02512.Vehicle <|-- com.example.ex02512.Car
+com.example.ex02512.Vehicle <|-- com.example.ex02512.Bicycle
+androidx.appcompat.app.AppCompatActivity <|-- com.example.ex02512.MainActivity
+com.example.ex02512.Vehicle <|-- com.example.ex02512.Motorcycle
+@enduml

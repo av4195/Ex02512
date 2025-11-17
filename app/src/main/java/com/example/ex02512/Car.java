@@ -2,16 +2,16 @@ package com.example.ex02512;
 
 import android.widget.TextView;
 
-public class Motorcycle extends Vehicle{
+public class Car extends Vehicle{
     TextView tv;
-    public Motorcycle(){
+    public Car(){
 
     }
     public void start(){
-        tv.setText("Motorcycle started");
+        tv.setText("Car started");
     }
     public void stop(){
-        tv.setText("Motorcycle stopped");
+        tv.setText("Car stopped");
     }
     public void accelerate(){
 
