@@ -14,6 +14,6 @@ public class Motorcycle extends Vehicle{
         tv.setText("Motorcycle stopped");
     }
     public void accelerate(){
-
+        System.out.print(" Motorcycle is accelerating");
     }
 }

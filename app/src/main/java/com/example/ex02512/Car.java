@@ -14,6 +14,6 @@ public class Car extends Vehicle{
         tv.setText("Car stopped");
     }
     public void accelerate(){
-
+        System.out.print("Car is accelerating");
     }
 }
